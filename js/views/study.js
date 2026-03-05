@@ -10,18 +10,18 @@ export function renderStudy(questionIdx) {
 
   const total = state.questionOrder.length;
   const entry = state.questionOrder[questionIdx];
-  const { pairIndex, modelLeft, modelRight } = entry;
+  const { pairDir, modelLeft, modelRight } = entry;
 
-  const pair = state.manifest.pairs.find(p => p.index === pairIndex);
+  const pair = state.manifest.pairs.find(p => p.dir === pairDir);
   const metrics = state.config.metrics;
   const base = state.config.images_base_path;
 
-  if (!state.promptStartTimes[pairIndex]) {
-    state.promptStartTimes[pairIndex] = new Date().toISOString();
+  if (!state.promptStartTimes[pairDir]) {
+    state.promptStartTimes[pairDir] = new Date().toISOString();
   }
 
-  if (!state.responses[pairIndex]) {
-    state.responses[pairIndex] = {};
+  if (!state.responses[pairDir]) {
+    state.responses[pairDir] = {};
   }
 
   const wrapper = document.createElement('div');
@@ -46,20 +46,20 @@ export function renderStudy(questionIdx) {
   const content = document.createElement('div');
   content.className = 'study__content';
 
-  content.appendChild(buildImagePanel('A', `${base}/${pairIndex}/${modelLeft}.png`));
+  content.appendChild(buildImagePanel('A', `${base}/${pairDir}/${modelLeft}.png`));
 
   // Center: metric buttons + next
   const metricsPanel = document.createElement('div');
   metricsPanel.className = 'metrics-panel';
 
   const allAnswered = () =>
-    metrics.every(m => state.responses[pairIndex][m.id] !== undefined);
+    metrics.every(m => state.responses[pairDir][m.id] !== undefined);
 
   for (const metric of metrics) {
-    const currentVal = state.responses[pairIndex][metric.id] ?? null;
+    const currentVal = state.responses[pairDir][metric.id] ?? null;
     metricsPanel.appendChild(
       createMetricButtons(metric.id, metric.label, currentVal, (metricId, value) => {
-        state.responses[pairIndex][metricId] = value;
+        state.responses[pairDir][metricId] = value;
         nextBtn.disabled = !allAnswered();
       })
     );
@@ -76,7 +76,7 @@ export function renderStudy(questionIdx) {
   metricsPanel.appendChild(nextBtn);
 
   content.appendChild(metricsPanel);
-  content.appendChild(buildImagePanel('B', `${base}/${pairIndex}/${modelRight}.png`));
+  content.appendChild(buildImagePanel('B', `${base}/${pairDir}/${modelRight}.png`));
 
   wrapper.appendChild(content);
   app.appendChild(wrapper);

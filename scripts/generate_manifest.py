@@ -3,10 +3,10 @@
 Scan images/ directory and write images/manifest.json.
 
 Expected structure:
-  images/{i}/{model_name}.png
-  images/{i}/prompt.txt
+  images/set_{i:04d}/{model_name}.png
+  images/set_{i:04d}/prompt.txt
 
-Each numeric subdirectory becomes one pair entry. Directories with fewer
+Each set_XXXX subdirectory becomes one pair entry. Directories with fewer
 than 2 model images are skipped with a warning.
 
 Run from the pairwise-user-study/ directory:
@@ -15,9 +15,11 @@ Run from the pairwise-user-study/ directory:
 
 import json
 import os
+import re
 import sys
 
 IMAGES_DIR = os.path.join(os.path.dirname(__file__), '..', 'images')
+DIR_PATTERN = re.compile(r'^set_(\d+)$')
 
 
 def main():
@@ -29,19 +31,17 @@ def main():
 
     pairs = []
 
-    entries = sorted(os.listdir(images_dir))
-    for entry in entries:
+    for entry in sorted(os.listdir(images_dir)):
         subdir = os.path.join(images_dir, entry)
         if not os.path.isdir(subdir):
             continue
 
-        # Try to interpret directory name as an integer index
-        try:
-            index = int(entry)
-        except ValueError:
+        m = DIR_PATTERN.match(entry)
+        if not m:
             continue
 
-        # Read prompt text
+        sort_key = int(m.group(1))
+
         prompt_path = os.path.join(subdir, 'prompt.txt')
         if os.path.isfile(prompt_path):
             with open(prompt_path, 'r', encoding='utf-8') as f:
@@ -50,23 +50,26 @@ def main():
             prompt_text = ''
             print(f"Warning: no prompt.txt in {subdir}")
 
-        # Enumerate model images (*.png), excluding prompt.txt
-        models = []
-        for fname in sorted(os.listdir(subdir)):
-            if fname.lower().endswith('.png'):
-                models.append(os.path.splitext(fname)[0])
+        models = [
+            os.path.splitext(fname)[0]
+            for fname in sorted(os.listdir(subdir))
+            if fname.lower().endswith('.png')
+        ]
 
         if len(models) < 2:
             print(f"Warning: skipping {entry} — fewer than 2 model images found ({models})")
             continue
 
         pairs.append({
-            'index': index,
+            '_sort': sort_key,
+            'dir': entry,
             'prompt': prompt_text,
             'models': models,
         })
 
-    pairs.sort(key=lambda p: p['index'])
+    pairs.sort(key=lambda p: p['_sort'])
+    for p in pairs:
+        del p['_sort']
 
     manifest = {'pairs': pairs}
     manifest_path = os.path.join(images_dir, 'manifest.json')

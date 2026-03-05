@@ -1,7 +1,7 @@
 {
   "pairs": [
     {
-      "index": 1,
+      "dir": "set_0001",
       "prompt": "A serene mountain lake at dawn",
       "models": [
         "model_a",
@@ -9,7 +9,7 @@
       ]
     },
     {
-      "index": 2,
+      "dir": "set_0002",
       "prompt": "A bustling city street at night",
       "models": [
         "model_a",
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "index": 3,
+      "dir": "set_0003",
       "prompt": "An ancient forest with sunbeams",
       "models": [
         "model_a",

@@ -5,10 +5,10 @@ function buildRows(endTime) {
   const timestep = endTime;
 
   for (const entry of state.questionOrder) {
-    const { pairIndex, modelLeft, modelRight } = entry;
-    const pair = state.manifest.pairs.find(p => p.index === pairIndex);
-    const promptResponses = state.responses[pairIndex] || {};
-    const startTime = state.promptStartTimes[pairIndex] || state.startTime;
+    const { pairDir, modelLeft, modelRight } = entry;
+    const pair = state.manifest.pairs.find(p => p.dir === pairDir);
+    const promptResponses = state.responses[pairDir] || {};
+    const startTime = state.promptStartTimes[pairDir] || state.startTime;
 
     for (const metric of state.config.metrics) {
       const raw = promptResponses[metric.id];
@@ -23,7 +23,7 @@ function buildRows(endTime) {
         user: state.userName,
         start_time: startTime,
         end_time: endTime,
-        prompt: pair ? pair.prompt : String(pairIndex),
+        prompt: pair ? pair.prompt : String(pairDir),
         metric: metric.id,
         model_left: modelLeft,
         model_right: modelRight,

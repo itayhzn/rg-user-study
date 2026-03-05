@@ -47,7 +47,7 @@ export function initializePairwiseSession(userName, pairs, questionsPerSession) 
   const questionOrder = selected.map(pair => {
     const swap = rng() < 0.5;
     return {
-      pairIndex: pair.index,
+      pairDir: pair.dir,
       modelLeft: swap ? pair.models[1] : pair.models[0],
       modelRight: swap ? pair.models[0] : pair.models[1],
     };
