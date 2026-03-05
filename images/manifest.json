@@ -1,27 +1,2803 @@
 {
   "pairs": [
     {
-      "dir": "set_0001",
-      "prompt": "A serene mountain lake at dawn",
+      "dir": "set_0000",
+      "prompt": "an artist painting on a large canvas",
       "models": [
-        "model_a",
-        "model_b"
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0001",
+      "prompt": "a spaceship approaching an alien planet with rings",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
       ]
     },
     {
       "dir": "set_0002",
-      "prompt": "A bustling city street at night",
+      "prompt": "a golden retriever playing fetch on a sunny beach",
       "models": [
-        "model_a",
-        "model_b"
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
       ]
     },
     {
       "dir": "set_0003",
-      "prompt": "An ancient forest with sunbeams",
+      "prompt": "a dragon on a castle at sunrise",
       "models": [
-        "model_a",
-        "model_b"
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0004",
+      "prompt": "a red fox in a snowy forest clearing",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0005",
+      "prompt": "a chef preparing food in a professional kitchen",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0006",
+      "prompt": "a scientist examining specimens through a microscope",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0007",
+      "prompt": "a fisherman casting a net at dawn",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0008",
+      "prompt": "a majestic lion resting on a rocky outcrop at sunset",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0009",
+      "prompt": "a colorful parrot perched on a tropical branch",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0010",
+      "prompt": "a pod of dolphins leaping through ocean waves",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0011",
+      "prompt": "a snowy owl in flight against a winter sky",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0012",
+      "prompt": "a pack of wolves moving through a snowy forest",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0013",
+      "prompt": "a sea turtle swimming gracefully through clear water",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0014",
+      "prompt": "a hummingbird hovering near a bright flower",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0015",
+      "prompt": "an elephant family crossing a dusty savanna",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0016",
+      "prompt": "a red fox in autumn leaves",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0017",
+      "prompt": "a butterfly emerging from its chrysalis",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0018",
+      "prompt": "a polar bear on ice floes",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0019",
+      "prompt": "a school of tropical fish in a coral garden",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0020",
+      "prompt": "a tiger walking through misty bamboo",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0021",
+      "prompt": "a curious animal looking at the camera",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0022",
+      "prompt": "a whale breaching the ocean surface",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0023",
+      "prompt": "a close-up photograph of a blue morpho butterfly resting on a wet leaf",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0024",
+      "prompt": "a peacock displaying its full plumage",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0025",
+      "prompt": "a portrait of an elderly person with weathered hands and wise eyes",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0026",
+      "prompt": "a street musician playing guitar in a busy square",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0027",
+      "prompt": "an artist painting on a large canvas in a sunlit studio",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0028",
+      "prompt": "a dancer mid-leap with flowing fabric",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0029",
+      "prompt": "a surfer riding a massive wave",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0030",
+      "prompt": "a hiker standing on a mountain summit overlooking clouds",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0031",
+      "prompt": "a child blowing bubbles in a sunny garden",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0032",
+      "prompt": "a group of friends laughing around a campfire",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0033",
+      "prompt": "a fashion model in avant-garde clothing",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0034",
+      "prompt": "a blacksmith forging metal with sparks flying",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0035",
+      "prompt": "a librarian surrounded by towering bookshelves",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0036",
+      "prompt": "an astronaut floating in zero gravity inside a spacecraft",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0037",
+      "prompt": "an astronaut floating in space with Earth visible in the background",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0038",
+      "prompt": "a chef preparing sushi in a traditional Japanese restaurant kitchen",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0039",
+      "prompt": "an astronaut floating in zero gravity",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0040",
+      "prompt": "an ancient stone temple overgrown with moss and tropical vines",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0041",
+      "prompt": "a misty mountain valley with pine trees in the foreground",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0042",
+      "prompt": "a photo of a forest with mist swirling around the tree trunks",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0043",
+      "prompt": "a majestic mountain range at sunrise with snow-capped peaks",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0044",
+      "prompt": "a serene lake reflecting autumn foliage in perfect stillness",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0045",
+      "prompt": "a vast desert with sand dunes stretching to the horizon at golden hour",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0046",
+      "prompt": "a tropical beach with crystal clear turquoise water and palm trees",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0047",
+      "prompt": "a dense jungle with sunlight filtering through the canopy",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0048",
+      "prompt": "a rolling green meadow dotted with wildflowers under a blue sky",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0049",
+      "prompt": "a dramatic waterfall cascading down rocky cliffs",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0050",
+      "prompt": "a peaceful river winding through a lush valley",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0051",
+      "prompt": "an ancient redwood forest with towering trees",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0052",
+      "prompt": "a volcanic landscape with steam rising from geothermal vents",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0053",
+      "prompt": "a coral reef teeming with colorful fish and marine life",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0054",
+      "prompt": "a savanna at dusk with acacia trees silhouetted against the sky",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0055",
+      "prompt": "a frozen tundra with northern lights dancing overhead",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0056",
+      "prompt": "a bamboo forest with light streaming through the stalks",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0057",
+      "prompt": "an aerial view of turquoise ocean water meeting white sandy beach",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0058",
+      "prompt": "a vast lavender field in Provence under a golden sunset sky",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0059",
+      "prompt": "a macro photograph of water droplets on a spider web at dawn",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0060",
+      "prompt": "a bustling city street at night with neon signs and reflections",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0061",
+      "prompt": "a sleek modern skyscraper with a glass facade reflecting clouds",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0062",
+      "prompt": "an old European cobblestone alley with hanging flower baskets",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0063",
+      "prompt": "a futuristic cityscape with flying vehicles and holographic displays",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0064",
+      "prompt": "a cozy cafe corner with warm lighting and vintage decor",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0065",
+      "prompt": "an abandoned industrial factory with rusting machinery",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0066",
+      "prompt": "a grand cathedral interior with stained glass windows",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0067",
+      "prompt": "a minimalist Japanese zen garden with raked sand patterns",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0068",
+      "prompt": "a vibrant market street in Morocco with colorful textiles",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0069",
+      "prompt": "a Venetian canal with gondolas and ornate bridges",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0070",
+      "prompt": "a New York subway station with arriving train",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0071",
+      "prompt": "a traditional Chinese temple with red lanterns",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0072",
+      "prompt": "a modern art museum interior with geometric architecture",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0073",
+      "prompt": "a rooftop garden overlooking a city skyline at sunset",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0074",
+      "prompt": "a Victorian mansion with elaborate architectural details",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0075",
+      "prompt": "a modern glass skyscraper reflecting dramatic storm clouds",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0076",
+      "prompt": "a futuristic city skyline at night with neon lights and flying vehicles",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0077",
+      "prompt": "a cozy reading nook with floor-to-ceiling bookshelves and warm lamp light",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0078",
+      "prompt": "a steaming cup of coffee on a wooden table by a window",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0079",
+      "prompt": "a vintage typewriter with a sheet of paper",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0080",
+      "prompt": "an assortment of fresh vegetables on a rustic cutting board",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0081",
+      "prompt": "a classic car parked on a tree-lined street",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0082",
+      "prompt": "old books stacked with reading glasses on top",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0083",
+      "prompt": "a vase of sunflowers in afternoon light",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0084",
+      "prompt": "a mechanical watch with visible gears",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0085",
+      "prompt": "a telescope pointed at a starry sky",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0086",
+      "prompt": "a guitar leaning against an amplifier",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0087",
+      "prompt": "fresh bread loaves in a bakery display",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0088",
+      "prompt": "a collection of colorful spices in ceramic bowls",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0089",
+      "prompt": "a vinyl record player with spinning record",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0090",
+      "prompt": "antique maps and compass on a wooden desk",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0091",
+      "prompt": "a chess board mid-game with dramatic lighting",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0092",
+      "prompt": "laboratory glassware with colorful liquids",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0093",
+      "prompt": "a vintage red sports car parked on a cobblestone street in Italy",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0094",
+      "prompt": "a space shuttle launching with bright orange flames and thick white smoke",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0095",
+      "prompt": "a rustic wooden table with freshly baked bread, cheese, and red wine",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0096",
+      "prompt": "a colorful bowl of ramen with soft-boiled egg, nori, and green onions",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0097",
+      "prompt": "swirling galaxies and cosmic nebulas in deep space",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0098",
+      "prompt": "geometric patterns in iridescent colors",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0099",
+      "prompt": "flowing liquid metal in abstract shapes",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0100",
+      "prompt": "fractal patterns emerging from mathematical equations",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0101",
+      "prompt": "light trails from long exposure photography",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0102",
+      "prompt": "ink dissolving in water creating organic patterns",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0103",
+      "prompt": "crystalline structures with prismatic light refraction",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0104",
+      "prompt": "smoke tendrils frozen in time against black background",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0105",
+      "prompt": "abstract expressionist painting with bold brush strokes",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0106",
+      "prompt": "surrealist landscape with melting objects",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0107",
+      "prompt": "minimalist composition with stark shadows",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0108",
+      "prompt": "art deco patterns in gold and black",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0109",
+      "prompt": "kaleidoscopic mandala design",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0110",
+      "prompt": "graffiti art on urban concrete walls",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0111",
+      "prompt": "digital glitch art with distorted pixels",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0112",
+      "prompt": "a watercolor painting of a sunflower garden in impressionist style",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0113",
+      "prompt": "a detailed pencil sketch of an old man's weathered hands holding a book",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0114",
+      "prompt": "an enchanted forest with glowing mushrooms and fireflies",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0115",
+      "prompt": "a cyberpunk street scene with augmented reality overlays",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0116",
+      "prompt": "a steampunk airship floating above Victorian London",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0117",
+      "prompt": "an underwater city with bioluminescent architecture",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0118",
+      "prompt": "a portal opening to another dimension",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0119",
+      "prompt": "a robot and human shaking hands in a garden",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0120",
+      "prompt": "a phoenix rising from flames",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0121",
+      "prompt": "a crystal cave with magical gems",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0122",
+      "prompt": "a time traveler stepping through a glowing doorway",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0123",
+      "prompt": "an alien marketplace on a distant world",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0124",
+      "prompt": "a mech warrior standing in a ruined city",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0125",
+      "prompt": "a fairy village inside a hollow tree",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0126",
+      "prompt": "a snowy winter landscape with a cozy cabin and smoke rising",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0127",
+      "prompt": "spring cherry blossoms falling like pink snow",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0128",
+      "prompt": "summer thunderstorm with lightning striking the horizon",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0129",
+      "prompt": "autumn leaves swirling in a gusty wind",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0130",
+      "prompt": "a misty morning in a rural countryside",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0131",
+      "prompt": "a rainbow arching over a green valley after rain",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0132",
+      "prompt": "frost patterns on a window pane",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0133",
+      "prompt": "a tornado forming over flat farmland",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0134",
+      "prompt": "gentle rain falling on a city street at night",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0135",
+      "prompt": "a blizzard with snow-covered trees bending in wind",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0136",
+      "prompt": "morning dew on spider webs",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0137",
+      "prompt": "a sun shower with rain falling through sunlight",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0138",
+      "prompt": "fog rolling into a harbor with boats",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0139",
+      "prompt": "ice crystals forming on a frozen lake",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0140",
+      "prompt": "heat waves shimmering over a desert road",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0141",
+      "prompt": "a golden hour beach scene with long shadows",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0142",
+      "prompt": "a blue hour cityscape with lights coming on",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0143",
+      "prompt": "a midnight scene lit only by a full moon",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0144",
+      "prompt": "a sunrise over misty mountains with rays of light",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0145",
+      "prompt": "a sunset silhouette of birds flying in formation",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0146",
+      "prompt": "a starlit night sky over a remote landscape",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0147",
+      "prompt": "twilight in a garden with fireflies beginning to glow",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0148",
+      "prompt": "a midday scene with harsh shadows and bright highlights",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0149",
+      "prompt": "a lamp-lit study room at night",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0150",
+      "prompt": "bioluminescent waves on a dark beach",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0151",
+      "prompt": "a neon-lit alley in the rain",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0152",
+      "prompt": "candlelit dinner table with soft warm glow",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0153",
+      "prompt": "a lighthouse beam cutting through fog at night",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0154",
+      "prompt": "aurora borealis over a snow-covered landscape",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0155",
+      "prompt": "a solar eclipse with corona visible",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0156",
+      "prompt": "an oil painting of a rural landscape in impressionist style",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0157",
+      "prompt": "a watercolor portrait with soft flowing colors",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0158",
+      "prompt": "a detailed pencil sketch of architectural details",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0159",
+      "prompt": "a digital illustration of a fantasy character",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0160",
+      "prompt": "a pop art portrait with bold colors and halftone dots",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0161",
+      "prompt": "a Renaissance-style painting of mythological scene",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0162",
+      "prompt": "a Japanese woodblock print of ocean waves",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0163",
+      "prompt": "a charcoal drawing of urban street scene",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0164",
+      "prompt": "a pastel drawing of flowers in soft colors",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0165",
+      "prompt": "a vintage travel poster design",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0166",
+      "prompt": "an art nouveau illustration with organic curves",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0167",
+      "prompt": "a cubist still life with fragmented perspectives",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0168",
+      "prompt": "a hyperrealistic painting of water droplets",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0169",
+      "prompt": "a pointillist landscape made of tiny dots",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0170",
+      "prompt": "a gothic illustration with dark intricate details",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0171",
+      "prompt": "an artist painting on a large canvas",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0172",
+      "prompt": "a spaceship approaching an alien planet with rings",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0173",
+      "prompt": "a golden retriever playing fetch on a sunny beach",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0174",
+      "prompt": "a dragon on a castle at sunrise",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0175",
+      "prompt": "a red fox in a snowy forest clearing",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0176",
+      "prompt": "a chef preparing food in a professional kitchen",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0177",
+      "prompt": "a scientist examining specimens through a microscope",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0178",
+      "prompt": "a fisherman casting a net at dawn",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0179",
+      "prompt": "a majestic lion resting on a rocky outcrop at sunset",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0180",
+      "prompt": "a colorful parrot perched on a tropical branch",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0181",
+      "prompt": "a pod of dolphins leaping through ocean waves",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0182",
+      "prompt": "a snowy owl in flight against a winter sky",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0183",
+      "prompt": "a pack of wolves moving through a snowy forest",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0184",
+      "prompt": "a sea turtle swimming gracefully through clear water",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0185",
+      "prompt": "a hummingbird hovering near a bright flower",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0186",
+      "prompt": "an elephant family crossing a dusty savanna",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0187",
+      "prompt": "a red fox in autumn leaves",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0188",
+      "prompt": "a butterfly emerging from its chrysalis",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0189",
+      "prompt": "a polar bear on ice floes",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0190",
+      "prompt": "a school of tropical fish in a coral garden",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0191",
+      "prompt": "a tiger walking through misty bamboo",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0192",
+      "prompt": "a curious animal looking at the camera",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0193",
+      "prompt": "a whale breaching the ocean surface",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0194",
+      "prompt": "a close-up photograph of a blue morpho butterfly resting on a wet leaf",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0195",
+      "prompt": "a peacock displaying its full plumage",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0196",
+      "prompt": "a portrait of an elderly person with weathered hands and wise eyes",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0197",
+      "prompt": "a street musician playing guitar in a busy square",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0198",
+      "prompt": "an artist painting on a large canvas in a sunlit studio",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
+      ]
+    },
+    {
+      "dir": "set_0199",
+      "prompt": "a dancer mid-leap with flowing fabric",
+      "models": [
+        "cfg",
+        "cfg_uncond",
+        "cond_uncond",
+        "isg",
+        "nlg",
+        "ssg",
+        "uncond_rg",
+        "vanilla"
       ]
     }
   ]
