@@ -1,6 +1,5 @@
 import state from '../state.js';
 import { renderProgressBar } from '../components/progress-bar.js';
-import { createSnapSlider } from '../components/snap-slider.js';
 import { openLightbox } from '../components/lightbox.js';
 
 export function renderStudy(questionIdx) {
@@ -17,12 +16,10 @@ export function renderStudy(questionIdx) {
   const metrics = state.config.metrics;
   const base = state.config.images_base_path;
 
-  // Record start time for this question
   if (!state.promptStartTimes[pairIndex]) {
     state.promptStartTimes[pairIndex] = new Date().toISOString();
   }
 
-  // Initialize responses for this question
   if (!state.responses[pairIndex]) {
     state.responses[pairIndex] = {};
   }
@@ -30,34 +27,28 @@ export function renderStudy(questionIdx) {
   const wrapper = document.createElement('div');
   wrapper.className = 'study';
 
-  // Progress bar
-  const progressBar = renderProgressBar(
+  wrapper.appendChild(renderProgressBar(
     state.config.study.title,
     questionIdx,
     total,
     state.config.study.show_save_exit,
     () => { window.location.hash = '#done'; }
-  );
-  wrapper.appendChild(progressBar);
+  ));
 
-  // Prompt banner
   const promptDiv = document.createElement('div');
   promptDiv.className = 'study__prompt';
   promptDiv.innerHTML = `
-    <span class="study__prompt-label">PROMPT</span>
+    <span class="study__prompt-label">Prompt</span>
     <span class="study__prompt-text">&ldquo;${pair.prompt}&rdquo;</span>
   `;
   wrapper.appendChild(promptDiv);
 
-  // Main content grid: image-left | metrics-panel | image-right
   const content = document.createElement('div');
   content.className = 'study__content';
 
-  // Left image
-  const leftSide = buildImagePanel('A', `${base}/${pairIndex}/${modelLeft}.png`);
-  content.appendChild(leftSide);
+  content.appendChild(buildImagePanel('A', `${base}/${pairIndex}/${modelLeft}.png`));
 
-  // Metrics panel (center)
+  // Center: metric buttons + next
   const metricsPanel = document.createElement('div');
   metricsPanel.className = 'metrics-panel';
 
@@ -66,40 +57,66 @@ export function renderStudy(questionIdx) {
 
   for (const metric of metrics) {
     const currentVal = state.responses[pairIndex][metric.id] ?? null;
-    const slider = createSnapSlider(metric.id, metric.label, currentVal, (metricId, value) => {
-      state.responses[pairIndex][metricId] = value;
-      updateNextBtn();
-    });
-    metricsPanel.appendChild(slider);
+    metricsPanel.appendChild(
+      createMetricButtons(metric.id, metric.label, currentVal, (metricId, value) => {
+        state.responses[pairIndex][metricId] = value;
+        nextBtn.disabled = !allAnswered();
+      })
+    );
   }
 
-  // Next button inside metrics panel
   const isLast = questionIdx === total - 1;
   const nextBtn = document.createElement('button');
   nextBtn.className = 'btn btn--primary study__next-btn';
   nextBtn.textContent = isLast ? 'Finish' : 'Next →';
   nextBtn.disabled = !allAnswered();
   nextBtn.addEventListener('click', () => {
-    if (isLast) {
-      window.location.hash = '#done';
-    } else {
-      window.location.hash = `#study/${questionIdx + 1}`;
-    }
+    window.location.hash = isLast ? '#done' : `#study/${questionIdx + 1}`;
   });
-
-  function updateNextBtn() {
-    nextBtn.disabled = !allAnswered();
-  }
-
   metricsPanel.appendChild(nextBtn);
-  content.appendChild(metricsPanel);
 
-  // Right image
-  const rightSide = buildImagePanel('B', `${base}/${pairIndex}/${modelRight}.png`);
-  content.appendChild(rightSide);
+  content.appendChild(metricsPanel);
+  content.appendChild(buildImagePanel('B', `${base}/${pairIndex}/${modelRight}.png`));
 
   wrapper.appendChild(content);
   app.appendChild(wrapper);
+}
+
+function createMetricButtons(metricId, label, initialValue, onChange) {
+  const group = document.createElement('div');
+  group.className = 'metric-btn-group';
+
+  const heading = document.createElement('div');
+  heading.className = 'metric-btn-group__label';
+  heading.textContent = label;
+
+  const buttons = document.createElement('div');
+  buttons.className = 'metric-btn-group__buttons';
+
+  const options = [
+    { value: -1, text: 'A Wins', cls: 'metric-btn--a' },
+    { value:  0, text: 'Tie',    cls: 'metric-btn--tie' },
+    { value:  1, text: 'B Wins', cls: 'metric-btn--b' },
+  ];
+
+  for (const opt of options) {
+    const btn = document.createElement('button');
+    btn.className = `metric-btn ${opt.cls}`;
+    btn.textContent = opt.text;
+    if (initialValue === opt.value) btn.classList.add('metric-btn--selected');
+
+    btn.addEventListener('click', () => {
+      buttons.querySelectorAll('.metric-btn').forEach(b => b.classList.remove('metric-btn--selected'));
+      btn.classList.add('metric-btn--selected');
+      onChange(metricId, opt.value);
+    });
+
+    buttons.appendChild(btn);
+  }
+
+  group.appendChild(heading);
+  group.appendChild(buttons);
+  return group;
 }
 
 function buildImagePanel(label, src) {
@@ -129,11 +146,9 @@ function buildImagePanel(label, src) {
   img.addEventListener('error', () => {
     skeleton.remove();
     imgWrap.classList.add('study__image-wrap--error');
-    imgWrap.title = 'Image not found';
   });
 
   img.src = src;
-
   imgWrap.appendChild(img);
 
   imgWrap.addEventListener('click', () => {
