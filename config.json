@@ -5,10 +5,16 @@
     "rotate_prompt": "Please rotate your phone to landscape mode for the best experience."
   },
   "metrics": [
-    { "id": "overall_quality", "label": "Overall Quality" },
-    { "id": "prompt_alignment", "label": "Prompt Alignment" }
+    {
+      "id": "overall_quality",
+      "label": "Overall Quality"
+    },
+    {
+      "id": "prompt_alignment",
+      "label": "Prompt Alignment"
+    }
   ],
   "questions_per_session": 3,
   "images_base_path": "images",
-  "googleAppsScriptUrl": "YOUR_APPS_SCRIPT_URL_HERE"
+  "googleAppsScriptUrl": "https://script.google.com/macros/s/AKfycbyOCg-zOfm2iaLfEIFrzIku6S-tZrUsFhLh6qjE3SAdGQEMjs6hBPrjxADG37aaQdkf/exec"
 }
