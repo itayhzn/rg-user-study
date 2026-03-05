@@ -14,7 +14,7 @@
       "label": "Prompt Alignment"
     }
   ],
-  "questions_per_session": 3,
+  "questions_per_session": 50,
   "images_base_path": "images",
   "googleAppsScriptUrl": "https://script.google.com/macros/s/AKfycbyOCg-zOfm2iaLfEIFrzIku6S-tZrUsFhLh6qjE3SAdGQEMjs6hBPrjxADG37aaQdkf/exec"
 }

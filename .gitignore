@@ -1,5 +1,1 @@
 # Ignore image files — too large for GitHub; run locally with serve.py
-images/**/*.png
-images/**/*.jpg
-images/**/*.jpeg
-images/**/*.webp
