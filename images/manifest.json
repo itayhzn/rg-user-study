@@ -1,0 +1,28 @@
+{
+  "pairs": [
+    {
+      "index": 1,
+      "prompt": "A serene mountain lake at dawn",
+      "models": [
+        "model_a",
+        "model_b"
+      ]
+    },
+    {
+      "index": 2,
+      "prompt": "A bustling city street at night",
+      "models": [
+        "model_a",
+        "model_b"
+      ]
+    },
+    {
+      "index": 3,
+      "prompt": "An ancient forest with sunbeams",
+      "models": [
+        "model_a",
+        "model_b"
+      ]
+    }
+  ]
+}
