@@ -4,11 +4,11 @@ function buildRows(endTime) {
   const rows = [];
   const timestep = endTime;
 
-  for (const entry of state.questionOrder) {
-    const { pairDir, modelLeft, modelRight } = entry;
+  for (let i = 0; i < state.questionOrder.length; i++) {
+    const { pairDir, modelLeft, modelRight } = state.questionOrder[i];
     const pair = state.manifest.pairs.find(p => p.dir === pairDir);
-    const promptResponses = state.responses[pairDir] || {};
-    const startTime = state.promptStartTimes[pairDir] || state.startTime;
+    const promptResponses = state.responses[i] || {};
+    const startTime = state.promptStartTimes[i] || state.startTime;
 
     for (const metric of state.config.metrics) {
       const raw = promptResponses[metric.id];

@@ -16,12 +16,12 @@ export function renderStudy(questionIdx) {
   const metrics = state.config.metrics;
   const base = state.config.images_base_path;
 
-  if (!state.promptStartTimes[pairDir]) {
-    state.promptStartTimes[pairDir] = new Date().toISOString();
+  if (!state.promptStartTimes[questionIdx]) {
+    state.promptStartTimes[questionIdx] = new Date().toISOString();
   }
 
-  if (!state.responses[pairDir]) {
-    state.responses[pairDir] = {};
+  if (!state.responses[questionIdx]) {
+    state.responses[questionIdx] = {};
   }
 
   const wrapper = document.createElement('div');
@@ -53,13 +53,13 @@ export function renderStudy(questionIdx) {
   metricsPanel.className = 'metrics-panel';
 
   const allAnswered = () =>
-    metrics.every(m => state.responses[pairDir][m.id] !== undefined);
+    metrics.every(m => state.responses[questionIdx][m.id] !== undefined);
 
   for (const metric of metrics) {
-    const currentVal = state.responses[pairDir][metric.id] ?? null;
+    const currentVal = state.responses[questionIdx][metric.id] ?? null;
     metricsPanel.appendChild(
       createMetricButtons(metric.id, metric.label, currentVal, (metricId, value) => {
-        state.responses[pairDir][metricId] = value;
+        state.responses[questionIdx][metricId] = value;
         nextBtn.disabled = !allAnswered();
       })
     );

@@ -41,15 +41,26 @@ export function initializePairwiseSession(userName, pairs, questionsPerSession) 
   const seed = hashString(userName.toLowerCase().trim());
   const rng = mulberry32(seed);
 
-  const shuffled = shuffle([...pairs], rng);
+  // Expand each set into all possible model pairs (C(n,2) per set)
+  const allCandidates = [];
+  for (const set of pairs) {
+    const models = set.models;
+    for (let i = 0; i < models.length; i++) {
+      for (let j = i + 1; j < models.length; j++) {
+        allCandidates.push({ dir: set.dir, modelA: models[i], modelB: models[j] });
+      }
+    }
+  }
+
+  const shuffled = shuffle(allCandidates, rng);
   const selected = shuffled.slice(0, Math.min(questionsPerSession, shuffled.length));
 
-  const questionOrder = selected.map(pair => {
+  const questionOrder = selected.map(({ dir, modelA, modelB }) => {
     const swap = rng() < 0.5;
     return {
-      pairDir: pair.dir,
-      modelLeft: swap ? pair.models[1] : pair.models[0],
-      modelRight: swap ? pair.models[0] : pair.models[1],
+      pairDir: dir,
+      modelLeft: swap ? modelB : modelA,
+      modelRight: swap ? modelA : modelB,
     };
   });
 
